@@ -1,10 +1,8 @@
-# this must be run in a pygame trinket
-
 import tkinter as tk
 
 # define any functions
 def get_pi():
-  f = open("pi_short.txt", "r")  # open the file for reading
+  f = open("guipi/pi_short.txt", "r")  # open the file for reading
   pi = f.read() # read the data into one long string
   f.close() # close the file to release memory
   # TODOclean up
@@ -28,7 +26,7 @@ pi = get_pi()
 
 
 # 'raise' the frame you want visible first
-frame1.tkraise()
-root.mainloop()
+# frame1.tkraise()
+# root.mainloop()
 
 
