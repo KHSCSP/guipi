@@ -27,5 +27,3 @@ pi = get_pi()
 # 'raise' the frame you want visible first
 # frame1.tkraise()
 # root.mainloop()
-
-
